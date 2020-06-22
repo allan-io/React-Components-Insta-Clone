@@ -24,5 +24,7 @@
 }
 
 .social {
-  width: 50px;
+  width: 150px;
+  font-family: "lobster";
+  font-size: larger;
 }

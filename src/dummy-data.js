@@ -1,7 +1,7 @@
 const dummyData = [
     {
         username: "philzcoffee",
-        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        thumbnailUrl: "https://i.imgur.com/Y3LGZoi.jpg",
         imageUrl: 'https://images.unsplash.com/photo-1477763858572-cda7deaa9bc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1876&q=80',
         likes: 400,
         timestamp: "July 17th 2017, 12:42:40 pm",
@@ -42,6 +42,94 @@ const dummyData = [
             {
                 username: "dennis_futbol",
                 text: "It that injustice"
+            }
+        ]
+    },
+    {
+        username: "twitch",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://i.imgur.com/BXiTsUz.jpg',
+        likes: 5307,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                username: "twitch",
+                text: "Super Mario gang is in town"
+            },
+            {
+                username: "michaelmarzetta",
+                text: "Omg that match was crazy"
+            },
+            {
+                username: "themexican_leprechaun",
+                text: "What a setup"
+            },
+            {
+                username: "dennis_futbol",
+                text: "It that injustice"
+            }
+        ]
+    },
+    {
+        username: "allanboston",
+        thumbnailUrl: "https://i.imgur.com/lalbFWT.jpg",
+        imageUrl: 'https://i.imgur.com/Xs8LYWL.jpg',
+        likes: 112,
+        timestamp: "July 17th 2017, 12:42:40 pm",
+        comments: [
+            {
+                username: "allanboston",
+                text: "kayaking down river in Brazil"
+            },
+            {
+                username: "biancasaurus",
+                text: "Looks delicious!"
+            },
+            {
+                username: "martinseludo",
+                text: "Can't wait to try it!"
+            }
+        ]
+    },
+    {
+        username: "philzcoffee",
+        thumbnailUrl: "https://i.imgur.com/Y3LGZoi.jpg",
+        imageUrl: 'https://i.imgur.com/M5NhDrg.jpg',
+        likes: 479,
+        timestamp: "July 17th 2017, 12:42:40 pm",
+        comments: [
+            {
+                username: "philzcoffee",
+                text: "Chocolate tortes with raspberries and vanilla gelato"
+            },
+            {
+                username: "biancasaurus",
+                text: "Looks delicious!"
+            },
+            {
+                username: "martinseludo",
+                text: "Can't wait to try it!"
+            }
+        ]
+    },
+    {
+        username: "allanboston",
+        thumbnailUrl: "https://i.imgur.com/lalbFWT.jpg",
+        imageUrl: 'https://i.imgur.com/8m23nTH.jpg',
+        likes: 97,
+        timestamp: "July 17th 2017, 12:42:40 pm",
+        comments: [
+            {
+                username: "allanboston",
+                text: "About to go Kayak fishing in the ocean!"
+            },
+            {
+                username: "biancasaurus",
+                text: "Looks delicious!"
+            },
+            {
+                username: "martinseludo",
+                text: "Can't wait to try it!"
             }
         ]
     }
