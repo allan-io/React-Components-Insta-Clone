@@ -8,7 +8,8 @@ import { faHeart as fasHeart} from '@fortawesome/free-solid-svg-icons'
 
 
 const LikeSection = props => {
-  const [likes, setLikes] = useState(props.likes)
+  console.log(props.likes.comments[1].username)
+  const [likes, setLikes] = useState(props.likes.likes)
   const [heartColor, setHeartColor] = useState(faHeart)
   const [turnRed, setTurnRed] = useState("")
   const likeFunc = () => {
@@ -22,6 +23,7 @@ const LikeSection = props => {
       setLikes(likes - 1)
     }
   }
+  const imgArr = ["https://i.imgur.com/AEjtLyc.jpg", "https://i.imgur.com/lalbFWT.jpg", "https://i.imgur.com/r3G0Iql.png"]
   return (
     <div>
       <div
@@ -39,7 +41,10 @@ const LikeSection = props => {
           <FontAwesomeIcon icon={faComment} />
         </div>
       </div>
-      <p className="like-number">{likes}</p>
+      <div className="like-counts">
+        <img className="like-img" src={imgArr[Math.floor(Math.random() * 3)]}/>
+        <p className="like-number">liked by&nbsp;<b>{props.likes.comments[1].username}</b>&nbsp;and {likes - 1} others</p>
+      </div>
     </div>
   )
 };
