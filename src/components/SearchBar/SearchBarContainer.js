@@ -4,26 +4,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faHeart, faCircle, faCompass } from '@fortawesome/free-regular-svg-icons'
 import "./SearchBar.css";
+import dummyData from "../../dummy-data"
 
-const SearchBar = (props) => {
+const SearchBar = ({ setNewData }) => {
   const [searchWord, setSearchWord] = useState("")
 
   useEffect(() => {
-    console.log("hi")
     filterPosts(searchWord)
   }, [searchWord])
 
-  console.log(searchWord)
-
   const handler = (event) => {
     setSearchWord(event.target.value)
-    // filterPosts(searchWord)
   }
 
   const filterPosts = (word) => {
-    const fill = props.data.filter(obj => obj.username.includes(word))
-    props.setData(fill)
-    // return fill
+    const fill = dummyData.filter(obj => obj.username.includes(word))
+    setNewData(fill)
   }
 
   return (

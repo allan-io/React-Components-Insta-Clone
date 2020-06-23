@@ -24,3 +24,28 @@
   color: black;
   font-weight: bold;
 }
+form {
+  display: flex;
+  color: red;
+}
+.input {
+  border: none;
+  border-top: 1px solid #efefef;
+  outline: transparent;
+  padding-left: 20px;
+  height: 2rem;
+  font-size: 1rem;
+}
+.submitButton {
+  background: #fff;
+  border: none;
+  border-top: 1px solid #efefef;
+  outline: none;
+  padding-right: 20px;
+  cursor: pointer;
+  color: rgba(57, 200, 232, 0.4);
+  font-size: 1rem;
+}
+#darken {
+  color: rgba(57, 200, 232, 1);
+}

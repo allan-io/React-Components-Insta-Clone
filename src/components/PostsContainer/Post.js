@@ -7,9 +7,8 @@ import PostHeader from "./PostHeader";
 import "./Posts.css";
 
 // pass props in this file to
-const Post = props => {
+const Post = (props) => {
   // set up state for the likes
-  // console.log(props.data)
 
   return (
     <div className="post-border">

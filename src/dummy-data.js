@@ -57,16 +57,16 @@ const dummyData = [
                 text: "Super Mario gang is in town"
             },
             {
-                username: "michaelmarzetta",
-                text: "Omg that match was crazy"
+                username: "junowhateyemin",
+                text: "OMG I love yoshi! my Fave"
             },
             {
-                username: "themexican_leprechaun",
-                text: "What a setup"
+                username: "doublousevn",
+                text: "LYM = luigi yoshi mario"
             },
             {
-                username: "dennis_futbol",
-                text: "It that injustice"
+                username: "greatOne",
+                text: "one day I want to be just like Mario!"
             }
         ]
     },
@@ -79,15 +79,15 @@ const dummyData = [
         comments: [
             {
                 username: "allanboston",
-                text: "kayaking down river in Brazil"
+                text: "kayaking down river in Brazil #kayaking #nature"
             },
             {
-                username: "biancasaurus",
-                text: "Looks delicious!"
+                username: "burus",
+                text: "Have fun man! be safe"
             },
             {
-                username: "martinseludo",
-                text: "Can't wait to try it!"
+                username: "holycross12",
+                text: "We all need to get in touch wiith mother nature more often."
             }
         ]
     },
@@ -103,12 +103,12 @@ const dummyData = [
                 text: "Chocolate tortes with raspberries and vanilla gelato"
             },
             {
-                username: "biancasaurus",
-                text: "Looks delicious!"
+                username: "glonebabyglone",
+                text: "Looks delicious! I love chocolate and raspberry combo"
             },
             {
-                username: "martinseludo",
-                text: "Can't wait to try it!"
+                username: "flowpow",
+                text: "Dude, great job!"
             }
         ]
     },
@@ -124,12 +124,12 @@ const dummyData = [
                 text: "About to go Kayak fishing in the ocean!"
             },
             {
-                username: "biancasaurus",
-                text: "Looks delicious!"
+                username: "fishLover",
+                text: "Go catch that monster!! good luck"
             },
             {
-                username: "martinseludo",
-                text: "Can't wait to try it!"
+                username: "triptripgoose",
+                text: "Wish I was about to go fishing!"
             }
         ]
     }
